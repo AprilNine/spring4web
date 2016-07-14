@@ -18,6 +18,10 @@ public class IndexController {
 		return "showMessage";
 	}
 	
+	/**
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping("/showMessage2")
 	public String showMessage2(Model model){
 		System.out.println("이건 타나?");
