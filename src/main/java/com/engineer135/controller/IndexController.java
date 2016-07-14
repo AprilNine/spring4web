@@ -25,6 +25,7 @@ public class IndexController {
 		return "showMessage2";
 	}
 	
+	
 	@RequestMapping("/testPage")
 	public String testPage(Model model){
 		System.out.println("testPage");
